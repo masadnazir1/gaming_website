@@ -1,0 +1,464 @@
+/* styles.css */
+/* Default styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa; /* Light gray background */
+  color: #ffffff; /* Dark text color */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  background-image: url(https://img.lovepik.com/background/20211021/large/lovepik-abstract-blue-background-image_401327580.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+/* Responsive styles for smaller screens (e.g., mobile devices) */
+@media (max-width: 768px) {
+  body {
+    font-size: 14px; /* Decrease font size for smaller screens */
+  }
+}
+
+/* Responsive styles for medium-sized screens (e.g., tablets) */
+@media (min-width: 768px) and (max-width: 992px) {
+  body {
+    font-size: 16px; /* Increase font size for medium-sized screens */
+  }
+}
+
+/* Responsive styles for larger screens (e.g., desktops) */
+@media (min-width: 992px) {
+  body {
+    font-size: 18px; /* Increase font size for larger screens */
+  }
+}
+
+
+
+
+.header{
+
+  
+  background-color: #2000d3a9; /* Background color for game boxes */
+  
+  box-shadow: inset 0 0 30px rgb(28, 1, 90); 
+  position: sticky;
+  top: 0px;
+}
+
+
+
+
+.navbar-toggler-icon{
+  color: #f8f9fa;
+}
+
+
+.navbar-toggler{
+
+  color: #f8f9fa;
+}
+
+
+
+
+
+
+
+
+.navbar-nav {
+    margin-left: auto; /* Align menu items to the right */
+  }
+  
+  .join-now-button {
+    margin-left: 10px; /* Adjust margin as needed */
+  }
+  
+  /* Optionally, you can style the button further */
+
+
+  .nav-links{
+    font-size: 18px;
+    color:#fff;
+    font-weight: bold;
+  }
+
+  .nav-links:hover{
+
+
+    font-weight: bold;
+    border-style: solid;
+  }
+
+
+
+
+
+
+
+  .join-now-button {
+    
+    color: white;
+    border: none;
+    padding: 10px 18px;
+   
+    font-weight: bold;
+    width: 120px;
+    background-color: #008b8b; /* Background color for game boxes */
+    border-radius: 1px;
+    box-shadow: inset 0 0 30px rgb(103, 255, 230); 
+  }
+  
+  .join-now-button:hover {
+    background-color: #0104d6;
+    box-shadow: inset 0 0 30px rgb(103, 255, 230); 
+    color: white;
+  }
+  
+
+
+ /* styles.css */
+
+
+/* Full-width layout */
+.home-page {
+  width: 100%;
+}
+
+/* Full-width slider */
+.carousel-item img {
+  width: 100%;
+  height: 300px;
+}
+
+/* Full-width carousel caption */
+.carousel-caption {
+  width: 100%;
+}
+
+/* Inner shadow effect using box-shadow */
+.game-box {
+  width: calc(25% - 20px); /* By default, show four boxes per row */
+  padding: 10px;
+  background-color: #00379c; /* Background color for game boxes */
+  border-radius: 5px;
+  box-shadow: inset 0 0 20px rgb(223, 227, 248); /* Inner shadow effect */
+  text-align: center;
+}
+
+/* Additional styles for better UI/UX */
+.latest-games {
+  padding: 0 20px; /* Add padding to container for better spacing */
+}
+
+.game-boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px; /* Spacing between game boxes */
+}
+
+.game-box img {
+  max-width: 100%; /* Limit the width of game images */
+  height: auto;
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+
+/* Responsive styles for tablets */
+@media (max-width: 992px) {
+  .game-box {
+    width: calc(50% - 20px); /* Show two boxes per row on tablets */
+  }
+}
+
+/* Responsive styles for mobile devices */
+@media (max-width: 768px) {
+  .game-box {
+    width: calc(100% - 20px); /* Show one box per row on mobile devices */
+  }
+}
+
+.play-btn{
+  
+  width: 50%;
+  justify-content: space-between;
+  background-color: #028ccc; /* Background color for game boxes */
+  border-radius: 40px;
+  box-shadow: inset 0 0 30px rgb(175, 255, 242); 
+  padding: 10px 20px;
+  border-style: solid;
+  font-weight: bold;
+
+}
+
+.img-fav{
+
+  width: 60px;
+  margin: 10px;
+  
+  
+  
+}
+
+
+
+
+
+
+
+/* categories */
+
+
+
+
+
+
+/* Categories section */
+.categories {
+  padding: 0 20px; /* Add padding to container for better spacing */
+}
+
+.category-boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px; /* Spacing between category boxes */
+  /* background-color: #2907be; */
+}
+
+.category-box {
+  text-align: center;
+  display: grid;
+}
+
+.category-box img {
+  width: 100px; /* Adjust the width of category images */
+  height: auto;
+  border-radius: 10px;
+}
+
+.p-box-cate{
+
+
+  background-color: #0070a3; /* Background color for game boxes */
+  border-radius: 4px;
+  box-shadow: inset 0 0 30px rgb(3, 221, 185); 
+  padding: 12px;
+  font-weight: bolder;
+}
+
+
+/* Custom CSS for HomePage */
+
+.player-card {
+  border: 1px solid #dee2e6;
+  border-radius: 10px;
+  transition: transform 0.3s ease-in-out;
+  background-color: #0070a3;
+  box-shadow: inset 0 0 30px rgb(3, 221, 185);  
+}
+
+.player-card:hover {
+  transform: translateY(-5px);
+}
+
+.card-img-top {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  width: 50px;
+  object-fit: cover;
+  width: 50px;
+  margin: 12px;
+  box-shadow: #0104d6;
+  padding: 1px;
+  background: #f8f9fa;
+  border-radius: 40px;
+}
+
+
+.card-title {
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.card-text {
+  color: #ffd000; /* Text color for score */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* Custom CSS for UnsubscribePage */
+/* UnsubscribeForm.css */
+
+.unsubscribe-form-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5rem;
+  margin-bottom: 1.5rem;
+  background-color: #f9f9f900;
+  padding: 5rem;
+  border-radius: 10px;
+  box-shadow: inset 0 0 30px rgb(50, 173, 255); 
+  justify-content: center;
+  align-items: center;
+}
+
+.unsubscribe-image {
+  width: 100%;
+  max-width: 200px;
+  margin-bottom: 20px;
+  border-radius: 50px;
+  margin-top: 40px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 15px;
+  font-size: 16px;
+  border-radius: 20px;
+  
+  box-shadow: inset 0 0 30px rgb(0, 94, 78); 
+}
+
+button {
+  padding: 10px 30px;
+  
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+}
+
+
+
+/* Custom CSS for ContactUsPage */
+
+.contact-container {
+  margin-top: 5rem;
+  margin-bottom: 1.5rem;
+}
+
+.contact-form {
+  background-color: #f9f9f900;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: inset 0 0 30px rgb(111, 149, 253); 
+}
+
+.contact-form h2 {
+  margin-bottom: 1rem;
+}
+
+.contact-form p {
+  margin-bottom: 2rem;
+}
+
+.input {
+  margin-bottom: 1.5rem;
+  width: 100%;
+  padding: 15px;
+  font-size: 16px;
+  border-radius: 20px;
+  
+  box-shadow: inset 0 0 30px rgb(50, 173, 255); 
+}
+
+.submit-button {
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+
+.about-container {
+  margin-top: 5rem;
+  box-shadow: inset 0 0 30px rgb(50, 173, 255); 
+  padding: 12px;
+  margin-bottom: 5rem;
+}
+
+.about-content {
+  background-color: #f9f9f900;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-shadow: inset 0 0 30px rgb(50, 173, 255); 
+}
+
+.about-content h2 {
+  margin-bottom: 1rem;
+}
+
+.policy-section {
+  margin-top: 2rem;
+}
+
+
+
+
+
+
+
+/* ComingSoonPage.css */
+.coming-soon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f5f5f52c; /* Light gray background */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-shadow: inset 0 0 30px rgb(50, 173, 255); 
+}
+
+.content-wrapper {
+  text-align: center;
+}
+
+.heading {
+  font-size: 4.5rem;
+  color: #ffffff; /* Dark text color */
+  margin-bottom: 1rem;
+}
+
+.subtext {
+  font-size: 1.2rem;
+  color: #ffffff; /* Medium gray text color */
+  margin-bottom: 2rem;
+}
